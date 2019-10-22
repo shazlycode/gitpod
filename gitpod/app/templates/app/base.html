@@ -1,0 +1,21 @@
+{% load static %}
+<html>
+
+<head>
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+    {% if title %}
+    <title>{{title}} | Home</title>
+{% else %}
+<title>Home</title>
+
+{% endif %}
+</head>
+
+<body>
+{% block content %}
+<h1>jkgklgglgl</h1>
+
+{% endblock content %}
+</body>
+
+</html>
